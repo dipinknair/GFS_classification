@@ -28,13 +28,9 @@ Classification can be done using various AI methods cur- rently available in the
 * Run the results.m to read the mat file and get plots
 
 
-## Help
-
-G
-
 ## Authors
 
-Dipin Nair
+Dipin Nair, Kelly Cohen, Manish Kumar
 
 ## NAFIPS 2022 paper link 
 
