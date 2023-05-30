@@ -1,0 +1,16 @@
+Loading data ...
+Acccuracy on validation set is 86.19 . 
+precision on validation set is 89.47 . 
+sensitivity on validation set is 85.00 . 
+f1score on validation set is 87.18 . 
+Confusion matrix is 
+    85    10
+    15    71
+
+Acccuracy on Total data set is 86.22 . 
+precision on validation set is 90.89 . 
+sensitivity on validation set is 83.13 . 
+f1score on validation set is 86.84 . 
+Confusion matrix is 
+   409    41
+    83   367
