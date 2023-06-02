@@ -28,11 +28,11 @@ end
 Problem.obj = @Sphere;
 
 
-M = 50; % number of chromosomes (cadinate solutions)
+M = 100; % number of chromosomes (cadinate solutions)
 
 
 P.N= 126;  %0 (input) + 12 + ouput + 54 rules  =  number of genes (variables)
-MaxGen = 50;
+MaxGen = 100;
 Pc = 0.85; 
 Pm = 0.1;%0.1;
 Er = 0.1;
