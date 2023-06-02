@@ -49,13 +49,14 @@ disp(Qd)
 X = BestChrom.Gene;
 %input mem1
 figure()
+sgtitle('Input Membership function')
 subplot(4,2,1)
 [x1, y1, y2, y3, lb, ub] = plotimf(sort(X(1:5)),P.lb(1),P.ub(1));
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([(lb-(lb*0.20)) (ub+(ub*0.20))])
 xlabel('Area')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 %input mem2
 %figure()
@@ -64,8 +65,8 @@ subplot(4,2,2)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([(lb-(lb*0.20)) (ub+(ub*0.20))])
 xlabel('Perimeter')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 
 %input mem3
@@ -74,8 +75,8 @@ subplot(4,2,3)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([(lb-(lb*0.20)) (ub+(ub*0.20))])
 xlabel('Major axis')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 
 %input mem4
@@ -85,8 +86,8 @@ subplot(4,2,4)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([(lb-(lb*0.20)) (ub+(ub*0.20))])
 xlabel('Minor axis')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 
 %input mem5
@@ -96,8 +97,8 @@ subplot(4,2,5)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([(lb-(lb*0.20)) (ub+(ub*0.20))])
 xlabel('Eccentricity')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 
 %input mem6
@@ -107,8 +108,8 @@ subplot(4,2,6)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([(lb-(lb*0.20)) (ub+(ub*0.20))])
 xlabel('Convex area')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 
 %input mem7
@@ -118,19 +119,20 @@ subplot(4,2,7)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([(lb-(lb*0.20)) (ub+(ub*0.20))])
 xlabel('Extent')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 
-%input FIS1
+%input FIS1----------------------------
 figure()
+sgtitle('Input Membership function')
 subplot(3,2,1)
 [x1, y1, y2, y3, lb, ub] = plotimf(sort(X(36:40)),0,1);
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([0 1])
 xlabel('FIS1')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 
 %input FIS2
@@ -139,8 +141,8 @@ subplot(3,2,2)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([0 1])
 xlabel('FIS2')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 
 %input FIS3
@@ -149,8 +151,8 @@ subplot(3,2,3)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([0 1])
 xlabel('FIS3')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 %input FIS4
 subplot(3,2,4)
@@ -158,8 +160,8 @@ subplot(3,2,4)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([0 1])
 xlabel('FIS4')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 %input FIS5
 subplot(3,2,5)
@@ -167,8 +169,8 @@ subplot(3,2,5)
 plot(x1, [y1 y2 y3], 'LineWidth',2);
 xlim([0 1])
 xlabel('FIS5')
-ylabel('Membership degree')
-title('Input Membership function')
+%ylabel('Membership degree')
+%title('Input Membership function')
 set(gca,'FontWeight','bold')
 
 %Ouput
