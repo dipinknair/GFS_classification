@@ -22,7 +22,6 @@ cgcurve(g) = population.Chromosomes(indx(1)).fitness;
 
 %% Main loop
 for g = 2 : MaxGen
-    tic
     disp(['Generation #' , num2str(g)]);
     % Calcualte the fitness values
     for i = 1 : M
@@ -53,13 +52,12 @@ for g = 2 : MaxGen
     cgcurve(g) = newPopulation.Chromosomes(1).fitness;
     
     population = newPopulation; % replace the previous population with the newly made
-    toc
 end
 
    
 BestChrom.Gene    = population.Chromosomes(1).Gene;
 BestChrom.Fitness = population.Chromosomes(1).fitness;
-
+BestChrom.cgcurve = cgcurve;
 
 if visuailzation == 1
 
