@@ -59,6 +59,7 @@ end
    
 BestChrom.Gene    = population.Chromosomes(1).Gene;
 BestChrom.Fitness = population.Chromosomes(1).fitness;
+BestChrom.cgcurve = cgcurve;
 
 
 if visuailzation == 1
