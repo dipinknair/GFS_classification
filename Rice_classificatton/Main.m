@@ -110,5 +110,6 @@ fprintf('Acccuracy on Total data set is %.2f . \n',accuracy_d)
 % Error
 % 
 % toc
-save('Best14feb1621.mat','BestChrom','MaxGen','P','M','Pc','Pm','Er')
+savefilename = datestr(now, 'yyyy_mm_dd_HH_MM_SS')
+save(savefilename,'BestChrom','MaxGen','P','M','Pc','Pm','Er')
 %toc

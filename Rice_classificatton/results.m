@@ -17,7 +17,7 @@ end
 
 
 %load("Best100_100.mat")
-load("Best.mat")
+load("2023_06_18_22_55_27")
 
 [Predicted, error]= fuzzy_predict(BestChrom.Gene , P, D.t_validation, D.l_validation);
 [Qv] = confusionmatrix(Predicted, D.l_validation);
