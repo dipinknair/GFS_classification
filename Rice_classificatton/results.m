@@ -205,13 +205,13 @@ for i = 1:numMatrices
 end
 
 
-% cgcurve = BestChrom.cgcurve;
-% plot( 1 : MaxGen , cgcurve,'LineWidth', 2);
-% xlabel('Generation');
-% ylabel('Fitness of the best elite')
-% set(gca,'FontWeight','Bold',  'LineWidth', 2);
-% figure()
-% plot( 1 : MaxGen , (-1*cgcurve),'LineWidth', 2);
-% xlabel('Generation');
-% ylabel('Mean Squared Error')
-% set(gca,'FontWeight','Bold',  'LineWidth', 2);
+cgcurve = BestChrom.cgcurve;
+plot( 1 : MaxGen , -1./cgcurve,'LineWidth', 2);
+xlabel('Generation');
+ylabel('Fitness of the best elite')
+set(gca,'FontWeight','Bold',  'LineWidth', 2);
+figure()
+plot( 1 : MaxGen , (-1*cgcurve),'LineWidth', 2);
+xlabel('Generation');
+ylabel('Mean Squared Error')
+set(gca,'FontWeight','Bold',  'LineWidth', 2);
