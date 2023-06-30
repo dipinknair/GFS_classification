@@ -1,16 +1,22 @@
-# Genetic Fuzzy System Classification
+# Classification using Genetic Fuzzy Cascading System Classification
 
 Classification of objects using fuzzy AI optimized using genetic algorithm
 
 ## Description
 
-Classification can be done using various AI methods currently available in the literature. However most of the AI techniques are black boxes. We do not know what is going on inside them and hence explainability of the model is very limited. A fuzzy system can increase the explainability to a certain degree. In this research, we classify two different types of rice and raisisn with the use of a genetic fuzzy cascading system and compare the accuracy with other methods. A total of rice grain images are converted to greyscale images and with help of computer vision, the attributes are obtained. These data are used for classification using a 7 input 2 output Fuzzy Inference System (FIS) with multiple levels of cascading. Each of the input, output membership functions and the rule base are tuned using Genetic Algorithm. Our current approach was able to produce more accuracy in the validation set compared to other model
+Navigating the mysteries of AI 'black boxes' can be challenging. However, my thesis introduces an innovative approach that increases model explainability and surpasses traditional accuracy levels. We focus on classifying rice and raisin types using computer vision techniques on grayscale images to extract essential attributes. These attributes feed into a 7-input, 2-output Fuzzy Inference System (FIS), further optimized using a Genetic Algorithm. The result is a transparent, highly effective classification system that outperforms standard machine learning models in both accuracy and explainability. Our method unlocks the AI 'black box', demonstrating the potential of fuzzy systems and genetic algorithms in advanced AI applications.
+
+The model outperforms by 95% and 87% in Rice and Raisin data sets.
 
 
 
 ## Results
+#### Rice
+![image](https://github.com/dipinknair/GFS_classification/assets/26918585/4747b6a6-55df-4a5d-be15-3c2b68668e74)
+#### Raisin
+![image](https://github.com/dipinknair/GFS_classification/assets/26918585/fd119ea0-c02e-4b5c-81f3-8a70c58b6400)
 
-![Screen Shot 2022-10-05 at 1 58 33 PM](https://user-images.githubusercontent.com/26918585/194129522-2662ab48-fc1b-4f15-8a62-65a81212b292.jpg)
+Thesis Link : Coming soon..
 
 
 ## Getting Started
