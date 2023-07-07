@@ -1,6 +1,9 @@
 # Classification using Genetic Fuzzy Cascading System Classification
 
 Classification of objects using fuzzy AI optimized using genetic algorithm
+You can read the complete research
+* [conference paper](https://link.springer.com/chapter/10.1007/978-3-031-16038-7_17)
+* thesis - coming soon
 
 ## Description
 
@@ -15,8 +18,6 @@ The model outperforms by 95% and 87% in Rice and Raisin data sets.
 ![image](https://github.com/dipinknair/GFS_classification/assets/26918585/4747b6a6-55df-4a5d-be15-3c2b68668e74)
 #### Raisin
 ![image](https://github.com/dipinknair/GFS_classification/assets/26918585/fd119ea0-c02e-4b5c-81f3-8a70c58b6400)
-
-Thesis Link : Coming soon..
 
 
 ## Getting Started
